@@ -58,4 +58,3 @@ for die1 in range(1, 7):
 
 probability = count_only_six / total_outcomes
 print(f"Probability of rolling only 4: {probability:.4f}")
-
