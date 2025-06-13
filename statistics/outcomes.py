@@ -47,6 +47,7 @@ for die1 in range(1, 7):
     for die2 in range(1, 7):
         outcomes.append((die1, die2))
         
+print(outcomes)
 print(f"Outcome for rolling both dies: {len(outcomes)}")        
 
 
@@ -58,3 +59,15 @@ for die1 in range(1, 7):
 
 probability = count_only_six / total_outcomes
 print(f"Probability of rolling only 4: {probability:.4f}")
+
+# c) The number of goals scored in a hockey game.
+# Solution: The sample space is the set of all non-negative integers. That is, the number of
+# goals scored in a game can be 0, 1, 2, 3, 4, or (theoretically) any other positive integer. Thus,
+# the size of the sample space is infinite because there is technically no limit on how many goals
+# can be score in a game.
+
+# d) The distance traveled to work, in miles.
+# Solution: The sample space is the set of all non-negative real numbers. That is, the distance
+# traveled to work can be 0, for someone who works at home, and it can be any positive number
+# - 0.4 miles, 20 miles, or 100.373 miles. Thus, the size of the sample space is infinite, because
+# there are infinitely many possible distances.
